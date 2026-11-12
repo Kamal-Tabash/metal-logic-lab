@@ -48,6 +48,8 @@ npm run build          # بناء حزمة الإنتاج للمواقع داخ�
 npm run test:e2e       # تشغيل اختبارات المتصفح على 5 أبعاد شاشة والتحقق من الوصولية
 npm run build:offline  # توليد نسخة الملف الواحد المدمج المستقل
 npm run gate           # البوابة الشاملة: فحص الأنواع، الحساب، البنائين، واختبار المتصفح باللغتين
+
+
 مجلد dist/ الناتج عن عملية البناء هو كل ما تحتاجه للرفع على أي استضافة ملفات ثابتة (مثل Cloudflare Pages أو GitHub Pages). جميع المسارات نسبية وتعمل سواء رُفعت في جذر النطاق أو داخل مجلد فرعي.
 خريطة الروابط السريعة (Deep Linking)
 #home أو الرابط المباشر: يفتح الشاشة الرئيسية.
@@ -66,7 +68,7 @@ src/tools/<id>/	كل أداة في مجلد مستقل: المحرك الريا�
 e2e/	اختبارات المتصفح الشاملة للتحقق من سلامة الواجهة والتفاعل
 
 
-METAL LOGIC LAB
+#METAL LOGIC LAB
 The interactive companion lab to the Arabic trilogy Metal Logic (منطق المعدن): Architecture of Impact, The Limits of Material, and The Craft of Decision.
 Fifteen engineering tools that draw each piece to true scale and solve the mechanics live on screen: prong resilience, hollow bangle wall limits, engraving depth, solder ladder sequencing, ring resizing limits, enamel cracking, tolerance stack-up, and center of gravity balance.
 A lightweight, purely static Single Page Application: zero backend, zero databases, and zero external tracking or assets. English is an idiomatic contextual translation paired side-by-side with the Arabic original.
