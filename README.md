@@ -81,7 +81,6 @@ npm run gate
 
 | المسار / الملف | الوظيفة |
 | :--- | :--- |
-| `src/core/books.ts` | فهرس الكتب الثلاثة وفصولها وعناوينها الرسمية |
 | `src/core/data.ts` | المرجع الموحد لجميع الثوابت والأرقام وقيم المقارنة المعتمدة مع إسنادها |
 | `src/core/registry.ts` | سجل الأدوات الـ 15، وحالات جاهزيتها، وفصولها المرتبطة |
 | `src/core/cases.ts` | بنية نوع «حالة الكتاب»: شروط الفحص، والنتائج المتوقعة، ومدخلات المحرك |
@@ -178,7 +177,6 @@ The output `dist/` directory contains standard static files ready for deployment
 
 | Path / File | Role |
 | --- | --- |
-| `src/core/books.ts` | Book registry, metadata, and chapter titles |
 | `src/core/data.ts` | Central source of truth for physical constants, workshop thresholds, and citations |
 | `src/core/registry.ts` | Tool registry, readiness state, and book mapping |
 | `src/core/cases.ts` | Verification schema defining test inputs, expectations, and verdicts |
