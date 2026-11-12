@@ -1,0 +1,33 @@
+{
+  "name": "metal-logic-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "build:offline": "vite build --mode offline",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "gate": "node scripts/gate.mjs"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "5.1.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/noto-kufi-arabic": "^5.1.0",
+    "@fontsource/noto-naskh-arabic": "5.1.0",
+    "preact": "10.24.3"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.1",
+    "@playwright/test": "1.63.0",
+    "@preact/preset-vite": "2.9.1",
+    "@types/node": "^20.17.6",
+    "fast-check": "^3.23.1",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vite-plugin-singlefile": "2.0.3",
+    "vitest": "2.1.8"
+  }
+}

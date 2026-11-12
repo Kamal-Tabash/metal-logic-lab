@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-offline/
+dist-preview/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+# the books' full texts: the author's, never published with the source
+reference/
